@@ -12,7 +12,7 @@ int *digitsarray(int n, int *size) {
 
     // trả lại n ban đầu( nếu ko trả lại n sẽ = 0)
     temp = n;
-    // tạo một mảng động để store degits của n
+    // tạo một mảng động để store digits của n
     int *arr = (int *)malloc(*size * sizeof(int));
     //tách n ra các digits rồi store những digits trên vào mảng vừa declare
     for (int i = *size - 1; i >= 0; i--) {
