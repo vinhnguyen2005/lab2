@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>\
-
-#define ll long long // dat long long -> ll cho gon
+#include <math.h>
+//dat long long -> ll cho gon
+#define ll long long 
 
 // function tim uoc chung lon nhat
 ll gcd(ll a, ll b) 
